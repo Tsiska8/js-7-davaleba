@@ -1,8 +1,10 @@
-var masivi = [1, 2, -9, -56, 34, 77, -90 -11, -1, -2, -5, -9];
+var m = [1, 2, -9, -56, 34, 77, -90 -11, -1, -2, -5, -9];
 
 var index = 0;
 
-while(index < masivi.length) {
-    document.write(masivi[index] + "<br>");
+while(index < m.length) {
+     if(m < 0) {
+        document.write(m[index] + "<br>");
+    }
     index++;
 }
